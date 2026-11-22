@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>20</x>
+      <y>380</y>
+      <w>1110</w>
+      <h>630</h>
+    </coordinates>
+    <panel_attributes>uniandes.dpoo.swing.interfaz.agregar
+fontsize=16
+bg=#f4f4f4
+layer=-1</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1170</x>
+      <y>380</y>
+      <w>1240</w>
+      <h>630</h>
+    </coordinates>
+    <panel_attributes>uniandes.dpoo.swing.interfaz.principal
+fontsize=16
+bg=#f4f4f4
+layer=-1</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>2430</x>
+      <y>380</y>
+      <w>440</w>
+      <h>630</h>
+    </coordinates>
+    <panel_attributes>uniandes.dpoo.swing.interfaz.mapa
+fontsize=16
+bg=#f4f4f4
+layer=-1</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1780</x>
+      <y>10</y>
+      <w>1090</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>uniandes.dpoo.swing.mundo
+fontsize=16
+bg=#f4f4f4
+layer=-1</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1120</x>
+      <y>170</y>
+      <w>300</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>javax.swing
+fontsize=16
+bg=#f4f4f4
+layer=-1</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>150</x>
+      <y>1220</y>
+      <w>1900</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Librería estándar de Java (javax.swing, java.awt.event, javax.swing.event)
+fontsize=16
+bg=#f4f4f4
+layer=-1</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>30</x>
+      <y>20</y>
+      <w>760</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>Diagrama de clases - Taller 6: GUIs con Swing y Java2D
+--
+Flecha con triángulo y línea continua: herencia (extends).
+Flecha con triángulo y línea punteada: implementa una interfaz (implements).
+Línea con flecha: asociación (el rol es el nombre del atributo).
+Clases grises: clases e interfaces de la librería de Java.
+bg=yellow</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1190</x>
+      <y>220</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>JFrame
+bg=light_gray</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>1260</y>
+      <w>200</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+/MouseListener/
+bg=light_gray</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>820</x>
+      <y>1260</y>
+      <w>200</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+/ActionListener/
+bg=light_gray</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1350</x>
+      <y>1260</y>
+      <w>160</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>JPanel
+bg=light_gray</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1700</x>
+      <y>1260</y>
+      <w>260</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+/ListSelectionListener/
+bg=light_gray</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1800</x>
+      <y>60</y>
+      <w>330</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Diario
+--
+--
++Diario()
++getRestaurantes(boolean): List&lt;Restaurante&gt;
++agregarRestaurante(Restaurante): void</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2560</x>
+      <y>45</y>
+      <w>290</w>
+      <h>244</h>
+    </coordinates>
+    <panel_attributes>Restaurante
+--
+-nombre: String
+-calificacion: int
+-coordenadaX: int
+-coordenadaY: int
++visitado: boolean
+--
++Restaurante(String, int, int, int, boolean)
++getNombre(): String
++getCalificacion(): int
++getX(): int
++getY(): int
++isVisitado(): boolean
++toString(): String</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>420</y>
+      <w>360</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>VentanaAgregarRestaurante
+--
+--
++VentanaAgregarRestaurante(VentanaPrincipal)
++agregarRestaurante(): void
++cerrarVentana(): void</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1565</x>
+      <y>420</y>
+      <w>450</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>VentanaPrincipal
+--
+--
++VentanaPrincipal(Diario)
++mostrarVetanaNuevoRestaurante(): void
++mostrarVentanaMapa(): void
++agregarRestaurante(String, int, int, int, boolean): void
++getRestaurantes(boolean): List&lt;Restaurante&gt;
+-actualizarRestaurantes(): void
++cambiarRestauranteSeleccionado(Restaurante): void
+_+main(String[]): void_</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2450</x>
+      <y>420</y>
+      <w>400</w>
+      <h>164</h>
+    </coordinates>
+    <panel_attributes>VentanaMapa
+--
+_-VISITADOS: String_
+_-TODOS: String_
+-radioTodos: JRadioButton
+-radioVisitados: JRadioButton
+--
++VentanaMapa(VentanaPrincipal, List&lt;Restaurante&gt;)
++actualizarRestaurantes(): void
++actionPerformed(ActionEvent): void</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>730</y>
+      <w>280</w>
+      <h>228</h>
+    </coordinates>
+    <panel_attributes>PanelMapaAgregar
+--
+-labMapa: JLabel
+-x: int
+-y: int
+--
++PanelMapaAgregar()
++getCoordenadas(): int[]
++paint(Graphics): void
++mouseClicked(MouseEvent): void
++mousePressed(MouseEvent): void
++mouseReleased(MouseEvent): void
++mouseEntered(MouseEvent): void
++mouseExited(MouseEvent): void</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>730</y>
+      <w>300</w>
+      <h>196</h>
+    </coordinates>
+    <panel_attributes>PanelEditarRestaurante
+--
+_-SI: String_
+_-NO: String_
+-txtNombre: JTextField
+-cbbCalificacion: JComboBox&lt;String&gt;
+-cbbVisitado: JComboBox&lt;String&gt;
+--
++PanelEditarRestaurante()
++getNombre(): String
++getCalificacion(): int
++getVisitado(): boolean</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>730</y>
+      <w>380</w>
+      <h>148</h>
+    </coordinates>
+    <panel_attributes>PanelBotonesAgregar
+--
+_-CREAR: String_
+_-CERRAR: String_
+-butNuevo: JButton
+-butCerrar: JButton
+--
++PanelBotonesAgregar(VentanaAgregarRestaurante)
++actionPerformed(ActionEvent): void</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1190</x>
+      <y>730</y>
+      <w>290</w>
+      <h>148</h>
+    </coordinates>
+    <panel_attributes>PanelBotones
+--
+_-NUEVO: String_
+_-VER: String_
+-butNuevo: JButton
+-butVerTodos: JButton
+--
++PanelBotones(VentanaPrincipal)
++actionPerformed(ActionEvent): void</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1530</x>
+      <y>730</y>
+      <w>390</w>
+      <h>148</h>
+    </coordinates>
+    <panel_attributes>PanelLista
+--
+-listaDeRestaurantes: JList&lt;Restaurante&gt;
+-dataModel: DefaultListModel&lt;Restaurante&gt;
+--
++PanelLista(VentanaPrincipal)
++actualizarRestaurantes(List&lt;Restaurante&gt;): void
++valueChanged(ListSelectionEvent): void
++seleccionarRestaurante(Restaurante): void</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1980</x>
+      <y>730</y>
+      <w>410</w>
+      <h>164</h>
+    </coordinates>
+    <panel_attributes>PanelDetallesRestaurante
+--
+-labNombre: JLabel
+-labCalificacion: JLabel
+-chkVisitado: JCheckBox
+--
++PanelDetallesRestaurante()
+-actualizarRestaurante(String, int, boolean): void
++actualizarRestaurante(Restaurante): void
+-buscarIconoCalificacion(int): ImageIcon</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2470</x>
+      <y>730</y>
+      <w>340</w>
+      <h>116</h>
+    </coordinates>
+    <panel_attributes>PanelMapaVisualizar
+--
+-labMapa: JLabel
+--
++PanelMapaVisualizar()
++paint(Graphics): void
++actualizarMapa(List&lt;Restaurante&gt;): void</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>250</y>
+      <w>720</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>710.0;10.0;710.0;90.0;10.0;90.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1260</x>
+      <y>250</y>
+      <w>540</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;530.0;90.0;530.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1260</x>
+      <y>250</y>
+      <w>1400</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;1390.0;90.0;1390.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>948</y>
+      <w>1270</w>
+      <h>322</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>1260.0;312.0;1260.0;132.0;10.0;132.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>916</y>
+      <w>930</w>
+      <h>354</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>920.0;344.0;920.0;164.0;10.0;164.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>868</y>
+      <w>540</w>
+      <h>402</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>530.0;392.0;530.0;212.0;10.0;212.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1325</x>
+      <y>868</y>
+      <w>115</w>
+      <h>402</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>105.0;392.0;105.0;212.0;10.0;212.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1420</x>
+      <y>868</y>
+      <w>315</w>
+      <h>402</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;392.0;10.0;212.0;305.0;212.0;305.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1420</x>
+      <y>884</y>
+      <w>775</w>
+      <h>386</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;376.0;10.0;196.0;765.0;196.0;765.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1420</x>
+      <y>836</y>
+      <w>1230</w>
+      <h>434</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;424.0;10.0;244.0;1220.0;244.0;1220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>948</y>
+      <w>20</w>
+      <h>322</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;312.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1840</x>
+      <y>868</y>
+      <w>20</w>
+      <h>402</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;392.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>868</y>
+      <w>140</w>
+      <h>402</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;392.0;10.0;312.0;130.0;312.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>868</y>
+      <w>340</w>
+      <h>402</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;392.0;10.0;312.0;330.0;312.0;330.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>980</x>
+      <y>520</y>
+      <w>1930</w>
+      <h>750</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;740.0;10.0;685.0;1920.0;685.0;1920.0;10.0;1870.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1380</x>
+      <y>590</y>
+      <w>235</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+m2=1
+r2=-pBotones
+m1=1
+r1=-ventanaPrincipal</panel_attributes>
+    <additional_attributes>225.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1750</x>
+      <y>590</y>
+      <w>55</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+m2=1
+r2=-pLista
+m1=1
+r1=-ventanaPrincipal</panel_attributes>
+    <additional_attributes>45.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1975</x>
+      <y>590</y>
+      <w>215</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2=1
+r2=-pDetalles</panel_attributes>
+    <additional_attributes>10.0;10.0;205.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>470</y>
+      <w>835</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+m2=0..1
+r2=-ventanaAgregar
+m1=1
+r1=-ventanaPrincipal</panel_attributes>
+    <additional_attributes>825.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2005</x>
+      <y>470</y>
+      <w>455</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+m2=0..1
+r2=-ventanaMapa
+m1=1
+r1=-ventanaPrincipal</panel_attributes>
+    <additional_attributes>10.0;10.0;445.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1955</x>
+      <y>150</y>
+      <w>20</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2=1
+r2=-mundo</panel_attributes>
+    <additional_attributes>10.0;270.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1445</x>
+      <y>165</y>
+      <w>330</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Separación GUI / lógica del negocio
+--
+La GUI se comunica con el mundo a
+través de la asociación
+VentanaPrincipal → Diario (-mundo).
+Ningún panel modifica el mundo.
+bg=yellow</panel_attributes>
+    <additional_attributes></additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1765</x>
+      <y>215</y>
+      <w>210</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>10.0;10.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2120</x>
+      <y>100</y>
+      <w>450</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2=0..*
+r2=-restaurantes</panel_attributes>
+    <additional_attributes>10.0;10.0;440.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>510</y>
+      <w>260</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2=1
+r2=-panelMapa</panel_attributes>
+    <additional_attributes>250.0;10.0;10.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>510</y>
+      <w>60</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2=1
+r2=-panelDetalles</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>510</y>
+      <w>210</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+m2=1
+r2=-panelBotones
+m1=1
+r1=-ventanaPrincipal</panel_attributes>
+    <additional_attributes>10.0;10.0;200.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2635</x>
+      <y>574</y>
+      <w>20</w>
+      <h>166</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2=1
+r2=-panelMapa</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;156.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2800</x>
+      <y>235</y>
+      <w>160</w>
+      <h>555</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2=0..*
+r2=-restaurantes</panel_attributes>
+    <additional_attributes>10.0;545.0;150.0;545.0;150.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+</diagram>
